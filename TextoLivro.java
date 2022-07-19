@@ -866,7 +866,7 @@ public class TextoLivro {
         int trecho040a = 382;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho040a);
+        System.out.printf("Você diz ao taverneiro que não tem tempo nem vontade de se fazer de bobo para seus clientes com truques de bêbado, e que você está aqui para contratar guerreiros bravos que desejem lutar contra Agglax, o demônio das sombras. O taverneiro franze as sobrancelhas espessas e negras e de repente se mostra muito interessado no que você está dizendo. \"Bom, por que você não me disse isso logo de cara?\", diz ele com um sorriso que de repente ilumina sua face. \"Conheço todos os melhores guerreiros da cidade e a maioria deles está aqui agora mesmo!\". Em meia hora, quinze guerreiros se alistam; você diz a eles onde devem ir para se juntar a seu exército que o espera; eles devem se encontrar com Lexon, que fará os pagamentos (perca 150 peças de ouro de sua ficha de aventura). Você finalmente cumprimenta o enorme taverneiro e deixa o \"Dragão Negro\" para procurar por outras coisas e pessoas de interesse em Zengis. Vá para %d.\n", trecho040a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -882,7 +882,11 @@ public class TextoLivro {
         String trecho041MonstroNome = ("Max");
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho041a);
+        System.out.printf("Você está de pé no centro do aposento, espada na mão, para enfrentar a guerreira. Sem aviso, ela de repente se joga para frente, cortando para baixo com a espada. Você ergue a espada por instinto para proteger-se do golpe. \n" +
+"MAX\n" +
+"HABILIDADE 11 \n" +
+"ENERGIA 7\n" +
+"Se for o primeiro a acertar um golpe, vá para %d. Se Max acertar o primeiro golpe, vá para %d.\n", trecho041a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -895,7 +899,7 @@ public class TextoLivro {
         int trecho042a = 206;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho042a);
+        System.out.printf("Beber a Água dos Deuses o salvou de uma morte horrível. O brilho radiante vai se esvaindo devagar e logo você volta ao normal. Você dá uma olhada ao redor da caverna e não encontra nenhuma saída. O rosto de um homem foi esculpido na parede rochosa, com os olhos fechados e a boca aberta. Quando você se aproxima para examiná-lo mais de perto, os olhos se abrem e uma voz profunda retumba da boca, dizendo: \"Sou o oráculo. Embora você não seja bem-vindo aqui, admiro sua determinação e esforço. Não importa o quão nobre seja sua causa, você deve pagar pelas respostas. Também farei perguntas. Responda qualquer uma delas de maneira incorreta e pagará com a vida. Começarei os procedimentos, pois sei de tudo, Primeiro, você vai começar a me dar presentes. Você esteve em Zengis recentemente. Espero que tenha tirado um tempo para comprar uma coruja de latão, e preciso saber quanto você pagou por ela\". Se tiver uma coruja de latão, tente lembrar de quantas peças de ouro pagou por ela e vá para o parágrafo de número correspon dente. Se não tiver uma coruja de latão, vá para %d.\n", trecho042a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -908,7 +912,7 @@ public class TextoLivro {
         int trecho043a = 188;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho043a);
+        System.out.printf("Agora, muitos de seus homens já estão acordados; nenhum deles parece ter se ferido, com exceção da sentinela cuja cabeça está sendo cuidada, tendo sido atacada pelas costas por um salteador noturno. Um homem adicional é colocado de sentinela enquanto todos os outros ajeitam-se para voltar a dormir. Não muito depois do amanhecer, o Capitão Barnock dá a ordem de continuar viagem rio acima. Vá para %d.\n", trecho043a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -921,7 +925,7 @@ public class TextoLivro {
         int trecho044a = 297;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho044a);
+        System.out.printf("\"Você está com sorte, meu amigo\", continua o oráculo. \"Mas sou muito ambicioso e quero mais alguma coisa. Você tem um vaso verde que poderia me dar?\". Se tiver um vaso verde e conseguir se lembrar de quantas peças de ouro ele custou, vá para a referência de mesmo número. Se não tiver um vaso verde, vá para 297.\n", trecho044a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -934,7 +938,7 @@ public class TextoLivro {
         int trecho045a = 130;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho045a);
+        System.out.printf("O anel serve no dedo e você olha espantado quando o punho cerrado começa a abrir devagar. Brilhando no centro da mão de pedra há um bonito cristal. Os labios do rei de repente abrem e uma voz retumba \"Eu lhe dou o cristal de luz!\". Você pega o cristal. Corre de volta para as tropas que o esperam, completamente animado. Depois de mostrar-lhes o te souro, vocês marcham pela trilha. Vá para%d.\n", trecho045a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -947,7 +951,7 @@ public class TextoLivro {
         int trecho046a = 0;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho046a);
+        System.out.printf("A chave gira e você ouve um clique baixo. Você então ouve um sibilo e inala um pouco do gás que está escapando da fechadura. Trata-se de um veneno mortal e você desaba no chão, agarrando a garganta e tentando respirar. Sua missão acabou.\n", trecho046a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -961,7 +965,7 @@ public class TextoLivro {
         int trecho047b = 218;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho047a, trecho047b);
+        System.out.printf("\"Tenho certeza que este corvo será uma ótima com panhia. Seu nome é Billy e ele até compreende as palavras do idioma ore. Dez peças de ouro é um óti mo preço por ele\". Se quiser comprar o corvo, vá para %d. Se preferir deixar a loja, vá para %d.\n", trecho047a, trecho047b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -988,7 +992,7 @@ public class TextoLivro {
         int trecho048b = 315;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho048a, trecho048b);
+        System.out.printf("Um calafrio corre por sua espinha enquanto você avança por entre as lanças. No centro da clareira você encontra um monte de terra recém revirada e uma pá. Se quiser cavar no monte de terra, vá para %d. Se preferir continuar caminhando, vá para %d.\n", trecho048a, trecho048b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1015,7 +1019,7 @@ public class TextoLivro {
         int trecho049b = 279;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho049a, trecho049b);
+        System.out.printf("O resto do dia passa sem nenhum incidente e, quando a luz começa sumir, você dá a ordem para preparar um acampamento em um ponto defensável a não mais de vinte quilômetros de distância de Zengis. Enquanto se ajeita para dormir, depois de ter jantado coelho cozido, sua mente repassa os eventos do dia, mas em segundos você pega no sono. Se estiver usando um amuleto de besouro no pescoço, vá para %d. Se não estiver usando este amuleto, vá para %d.\n", trecho049a, trecho049b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1041,7 +1045,7 @@ public class TextoLivro {
         int trecho050a = 219;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho050a);
+        System.out.printf("Cedo no outro dia você acorda seus homens e logo vocês estão marchando para o sudeste. No final da tarde você vê uma fila de colinas ao longe. \"As Cavernas das Pedras das Estrelas\", diz um homem de Zengis. Você chega antes do anoitecer e decide entrar sozinho. Com uma vela em uma mão e a espada na outra, você adentra na caverna enorme e escura. Vá para %d.\n", trecho050a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1054,7 +1058,7 @@ public class TextoLivro {
         int trecho051a = 0;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho051a);
+        System.out.printf("Ninguém tem beladona. Uma hora depois você está tremendo incontrolavelmente com uma febre horrível. Começam a nascer pelos em seus braços e bochechas, e seu rosto começa a se transformar até parecer com o do lobisomem que o mordeu. Observando horrorizados, seus soldados tomam a angustiante decisão de acabar com seu sofrimento. Com o líder morto o moral se vai, e seu exército então abandona a cruzada contra Agglax.\n", trecho051a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1065,11 +1069,15 @@ public class TextoLivro {
 // Tres Saidas
     void trecho052() {
         int trecho052a = 197;
-        int trecho052b = 52;
-        int trecho052c = 16;
+        int trecho052b = 378;
+        int trecho052c = 18;
         String validador = "Não Validado";
         System.out.print("");
-        System.out.printf("Vá para %d ou %d ou %d .\n", trecho052a, trecho052b, trecho052c);
+        System.out.printf("Dois minutos depois, você vê uma tabuleta torta pendurada sobre a porta de um prédio velho, O desenho tosco de um dragão está pintado nela, acima das palavras \"Dragão Negro\". Há muitas risadas e gritaria vindo de dentro da taverna e você decide entrar. Você sobe alguns degraus bastante usados e empurra a pesada porta de carvalho. Embora seja dia, a taverna está escura do lado de dentro e há velas acesas, pois as janelas pequenas e sujas não permitem a entrada de muita luz. Da entrada você vé que a taverna está agitada, embora ninguém pareça muito amigável. Grupos de vagabundos encapuzados estão sentados em cantos escuros, enquanto ladinos animados, de comportamento ainda pior devido a toda a cerveja que já beberam, estão senta dos no meio da taverna, insultando todos que passam por eles, incluindo as garçonetes que precisam se espremer entre as mesas carregando as bandejas cheias. Você olha de mesa em mesa, decidindo onde sentar. Você vai:\n" +
+"\n" +
+"Sentar-se ao bar? Vá para %d\n" +
+"Sentar com um ladino bêbado? Vá para %d \n" +
+"Sentar-se com três vagabundos? Vá para %d.\n", trecho052a, trecho052b, trecho052c);
         System.out.print("Quero ir para: ");
         System.out.print("");
         Scanner teclado = new Scanner(System.in);
@@ -1096,7 +1104,7 @@ public class TextoLivro {
         int trecho053a = 0;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho053a);
+        System.out.printf("Você logo chega a um beco sem saída e, sentindo perigo, vira-se e corre. Mas antes que você possa alcançar a entrada da boca, um dente de pedra do teto desliza para bloquear a saída. Preso dentro de túnel, a morte por inanição o espera.\n", trecho053a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1109,6 +1117,7 @@ public class TextoLivro {
         int trecho054a = 209;
         String validador = "Não Validado";
         System.out.println("");
+        System.out.printf("Meia hora depois de comer as maçãs, alguns dos soldados começam a ficar doentes, você entre eles. Perca 2 pontos de ENERGIA e 1 de HABILIDADE. Sua saúde começa a deteriorar-se rápido, e dois deles morrem. Antes do fim do dia, cinco estão mortos, Faça as deduções apropriadas em sua ficha de aventura e também perca 1 ponto de SORTE. Você se arrepende da decisão de dar as maçãs para seus homens e resolve não se deixar distrair de seu objetivo principal no futuro. Vá para %d .\n", trecho054a);
         System.out.printf("Vá para %d .\n", trecho054a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
@@ -1122,7 +1131,7 @@ public class TextoLivro {
         int trecho055a = 114;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho055a);
+        System.out.printf("O servo de Agglax jaz imóvel no chão, sua espada tendo penetrado no único ponto macio de seu corpo, uma pequena seção do estômago duro como pedra. Satisfeito que o homem de pedra não continuara lutando pelo lado do mal de novo, você dá a ordem para continuar a marcha. Vá para %d .\n", trecho055a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1135,7 +1144,7 @@ public class TextoLivro {
         int trecho056a = 382;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho056a);
+        System.out.printf("Sem saber se tomou a decisão correta ao confiar no vagabundo, você entrega as 100 peças de ouro. Laz tira um mapa de dentro dos mantos e coloca-o sobre a mesa. Zengis está bem no meio, e para o sul está marcada a vila de Karn. Mais para o sudeste ficam as Cavernas das Pedras das Estrelas. Para o leste de Zengis fica a Floresta dos Demônios, que começa onde o Rio Kok se bifurca e corre para o leste, quase na borda do mapa. Laz pega um lápis e mar ca uma cruz grande na borda do mapa, bem onde termina a Floresta dos Demônios. \"É aqui que você vai encontrá-lo\", diz Laz. Você guarda o mapa no bolso de sua túnica. \"Sua única esperança de der rotar Agglax reside em visitar o oráculo\", sussurra Jip. \"Mas se o oráculo vai falar com você ou não é outro problema. Depende do humor dele e dos presentes você lhe trouxer. Você vai encontrá-lo nas Cavernas das Pedras das Estrelas\". Você agradece aos vagabundos pela informação e sai da taverna para explorar Zengis um pouco mais, perguntando -se quem é o oráculo. Vá para %d.\n", trecho056a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1149,7 +1158,7 @@ public class TextoLivro {
         int trecho057b = 27;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho057a, trecho057b);
+        System.out.printf("\"Então você é apenas outro tolo que deseja ver o oráculo, é isso?\". Se decidir responder \"Sim\", vá para %d. Se preferir responder \"Não\", vá para %d.\n", trecho057a, trecho057b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1175,7 +1184,7 @@ public class TextoLivro {
         int trecho058a = 274;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho058a);
+        System.out.printf("Você de repente vê uma sacola suja escondida entre o capim. Você abre caminho com a espada e, para sua surpresa e alegria, encontra 10 peças de ouro na sacola. Você grita animado para seus homens, dizendo-lhes que está na hora de continuar, e em dez minutos vocês estão marchando mais uma vez Vá para %d .\n", trecho058a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1188,7 +1197,7 @@ public class TextoLivro {
         int trecho059a = 0;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho059a);
+        System.out.printf("Com os números diminuindo a cada minuto que passa, suas tropas perdem o moral por completo. A apenas alguns metros de distância das linhas inimigas, eles viram e fogem desordenadamente. Você grita para eles ficarem e lutarem, mas não consegue evitar que eles fujam. Quando isso acontece, várias mãos o agarram e você é levado acorrentado até Agglax, para ser executado.\n", trecho059a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1202,7 +1211,7 @@ public class TextoLivro {
         int trecho060b = 95;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho060a, trecho060b);
+        System.out.printf("A multidão fica em silêncio quando você deixa cair a colher na tigela vazia em sinal de vitória. Barrigudão, com a boca cheia de torta, derruba a tigela de torta da mesa, quebrando-a para mostrar a irritação. Balançando a cabeça incrédulo, o anão lhe entrega a bolsa com 100 peças de ouro. Se quiser subir na mesa e fazer um discurso sobre Agglax e sobre seu desejo de contratar dez guerreiros em troca do ouro que acabou de ganhar, vá para %d. Se preferir ir embora com o ouro, vá para %d.\n", trecho060a, trecho060b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1229,7 +1238,7 @@ public class TextoLivro {
         int trecho061b = 18;;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho061a, trecho061b);
+        System.out.printf("Você balança a cabeça e consegue recuperar o equi líbrio a tempo de ouvir uma gargalhada alta do taverneiro atrás de você. Você desaba em uma cadeira na mesa mais próxima de você, meio abalado pela bebida. Perca 1 ponto de ENERGIA. Role um dado. Se o resultado for 1 a 3, você se encontra sentado com um ladino bêbado (vá para %d). Se for 4 a 6, você se encontra sentado com três vagabundos (vá para %d).\n", trecho061a, trecho061b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1256,7 +1265,7 @@ public class TextoLivro {
         int trecho062b = 339;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho062a, trecho062b);
+        System.out.printf("Outro goblin o vê avançar para o guerreiro prepara do para a batalha. Reconhecendo-o como o líder, o goblin aponta a besta na sua direção, mira com cuidado e então dispara. Se tiver contratado os Saque adores de Max em Zengis, vá para %d. Se não tiver contratado os homens da guerreira, vá para %d.\n", trecho062a, trecho062b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1284,7 +1293,10 @@ public class TextoLivro {
         int trecho063c = 314;
         String validador = "Não Validado";
         System.out.print("");
-        System.out.printf("Vá para %d ou %d ou %d .\n", trecho063a, trecho063b, trecho063c);
+        System.out.printf("A porta da rua dá para um aposento único, no centro do qual dois homens estão praticando esgrima com espadas de madeira, São observados por sete outros homens. No fundo do aposento, uma loira estonteante trajando armadura de couro grita instruções para os dois combatentes. \"Parem!\", ela grita de repente. \"Descansem enquanto eu vejo o que o forasteiro quer\". Ela caminha até você e diz: \"Sou Max e esses são os meus garotos. Quer se juntar a eles ou contratá-los?\". Você responde que pode es tar interessado em contratá-los. \"Meus garotos são os melhores. Duzentas peças de ouro e todos os dez são seus\". Você vai:\n" +
+                        "Pagar a Max o preço que ela pede? Vá para %d\n" +
+                        "Negociar o preço? Vá para %d\n" +
+                        " Recusar-se a pagar e ir embora? Vá para %d\n", trecho063a, trecho063b, trecho063c);
         System.out.print("Quero ir para: ");
         System.out.print("");
         Scanner teclado = new Scanner(System.in);
@@ -1311,7 +1323,7 @@ public class TextoLivro {
         int trecho064a = 52;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho064a);
+        System.out.printf("O guarda grita para você parar, mas você corre tanto quanto pode, mantendo um olho aberto para uma taverna à qual você avança. Vá para %d .\n", trecho064a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1324,7 +1336,7 @@ public class TextoLivro {
         int trecho065a = 113;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho065a);
+        System.out.printf("A rua faz uma curva fechada para a esquerda e você logo se vê de volta aos portões principais de entra da de Zengis. Lembrando-se de sua promessa a Lexon, você decide voltar ao exército que lhe espera. Vá para %d .\n", trecho065a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1340,7 +1352,11 @@ public class TextoLivro {
         String trecho066MonstroNome = ("Urso Nandi");
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho066a);
+        System.out.printf("Você consegue libertar uma das mãos e golpeia a fera brutal no pé com sua espada. Ela ruge de dor e meio segundo depois, você está livre e de pé. Vocé agora tem uma chance melhor de lutar contra esse devorador de carne.\n" +
+                            "URSO NANDI\n" +
+                            "HABILIDADE     9\n" +
+                            "ENERGIA        11\n" +
+                            "Se vencer, vá para %d.\n", trecho066a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1353,7 +1369,7 @@ public class TextoLivro {
         int trecho067a = 213;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho067a);
+        System.out.printf("O ágil homem das colinas de repente faz seu movimento e, antes que você tenha tempo de reagir você é derrubado por uma voadora com os dois pés. Você cai de cara no chão e sente uma dor cortante nos braços quando eles são torcidos às suas costas em um aprensamento firme. Você tenta se libertam mas lutar apenas aumenta a dor e você é obrigado a se entregar a Vine. Vá para %d.\n", trecho067a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1367,7 +1383,7 @@ public class TextoLivro {
         int trecho068b = 312;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho068a, trecho068b);
+        System.out.printf("Você chega a uma clareira ampla na floresta, onde há uma enorme rocha. A clareira está coberta de ossos e a rocha está manchada de sangue seco. Se quiser esperar com seu exército na borda da clareira para ver se alguém ou alguma coisa vai voltar para cá, vá para %d. Se preferir atravessar a clareira, vá para %d\n", trecho068a, trecho068b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1393,7 +1409,7 @@ public class TextoLivro {
         int trecho069a = 188;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho069a);
+        System.out.printf("Dez de seus guerreiros caem vítimas das moscas ar pão, seus corpos servindo de alimento nas semanas por vir para as larvas que vão chocar dentro deles. As moscas arpão acabam indo embora e você conduz seus homens desanimados de volta ao navio. Perca 1 ponto de SORTE. O Capitão Barnock percebe que você não está com ânimo para um bate-papo matinal e dá as ordens para o navio continuar rio acima. Vá para %d.\n", trecho069a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1406,7 +1422,7 @@ public class TextoLivro {
         int trecho070a = 323;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho070a);
+        System.out.printf("O lobisomem vê seu amuleto e congela, ficando imóvel onde está, duro de medo. Sem nenhuma luta, você acaba com o lobisomem com apenas um golpe da espada. Mas você vê que a sentinela está morta. O resto da noite passa sem qualquer incidente e de manhã você conduz seu exército para fora da floresta, para uma nova planície. Vá para %d .\n", trecho070a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1423,7 +1439,11 @@ public class TextoLivro {
         String trecho071MonstroNome = ("Taverneiro");
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho071a, trecho071b);
+        System.out.printf("O taverneiro olha para você com assombro, então pega um porrete de madeira de trás do balcão. Ele salta para a frente do bar, gritando: \"Vou ensinar uma lição a esse jovenzinho\". Você levanta-se do banco e saca a espada para enfrentar o enorme bruto enquanto a multidão se amontoa ao redor para ver a luta. \"Acabe com ele, Gordo!\", grita uma voz na multidão. \"Rápido, Gordo, preciso de mais uma bebida!\", ruge outra voz. Então a luta tem início. \n" +
+                            "TAVERNEIRO\n" +
+                            "HABILIDADE 9\n" +
+                            "ENERGIA 7 \n" +
+                            "Se você for o primeiro a vencer três rodadas de combate, vá para %d. Se o taverneiro for o primeiro a vencer três rodadas de combate, vá para %d. \n", trecho071a, trecho071b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1449,7 +1469,7 @@ public class TextoLivro {
         int trecho072a = 284;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho072a);
+        System.out.printf("Mais meia hora passa e a paralisia começa a perder a força. A sensação começa a voltar a seus mem bros e você logo é capaz de se mover livremente. Vá para %d .\n", trecho072a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1463,7 +1483,7 @@ public class TextoLivro {
         int trecho073b = 130;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho073a, trecho073b);
+        System.out.printf("Você ergue seu escudo rápido para bloquear o dardo. O globin se vira para fugir e desaparece entre os arbustos. Se quiser persegui-lo, vá para %d. Se pre ferir chamar suas tropas de volta à trilha e continuar marchando, vá para %d. \n", trecho073a, trecho073b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1489,7 +1509,7 @@ public class TextoLivro {
         int trecho074a = 192;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho074a);
+        System.out.printf("A bola de fogo atinge o mastro principal, que desaba sobre o convés, matando cinco de seus homens. Dois anões se movem rápido para apagar a bola de fogo com cobertores molhados, evitando um incêndio a bordo. Vá para %d.\n", trecho074a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1503,7 +1523,7 @@ public class TextoLivro {
         int trecho075b = 180;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho075a, trecho075b);
+        System.out.printf("Enquanto seus guerreiros se recuperam, você pondera que planos Agglax está tramando; em algum ponto além da Floresta dos Demônios ele espera por você e seu exército. Quando seus guerreiros estão finalmente bem o suficiente para continuar marchando, você decide ir direto para Agglax, então vira seu exército para o leste, rumo à Floresta dos Demônios. Depois de cruzar um dos afluentes que alimentam o Rio Kok, você chega à borda da sombria floresta. Árvores negras e retorcidas crescem alto, formando uma muralha ameaçadora; um sussurro de incerteza corre entre as fileiras de seu exército. Você quebra o silêncio gritando ordens para marchar para dentro da floresta; a luz do dia rapidamente se vai debaixo das grossas copas das árvores acima. Só os guinchos estridentes de macacos assustados às vezes quebram o silêncio da floresta. Depois de meia hora, um batedor reporta que avistou um grupo de cabanas de madeira, quase escondidas pela vegetação alta. Se quiser ir com dez homens à aldeia, vá para %d. Se preferir continuar marchando com seu exército, vá para %d.\n", trecho075a, trecho075b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1531,7 +1551,10 @@ public class TextoLivro {
         int trecho076c = 354;
         String validador = "Não Validado";
         System.out.print("");
-        System.out.printf("Vá para %d ou %d ou %d .\n", trecho076a, trecho076b, trecho076c);
+        System.out.printf("O corredor dá para outra caverna, embora esta es teja completamente vazia. Entretanto, você pode escolher por onde sair. Na parede do outro lado você vê as bocas de três túneis, cada uma esculpida para parecer a boca de uma estranha criatura que você nunca viu. Você percebe que três dos dentes na mandíbula superior de cada uma das cabeças escul pidas trazem números entalhados. Escolha o túnel que quiser e vá para o parágrafo de mesmo número.\n" +
+                            "Esquerda – %d\n" +
+                            "Centro – %d\n" +
+                            "Direita – %d.\n", trecho076a, trecho076b, trecho076c);
         System.out.print("Quero ir para: ");
         System.out.print("");
         Scanner teclado = new Scanner(System.in);
@@ -1560,7 +1583,10 @@ public class TextoLivro {
         int trecho077c = 320;
         String validador = "Não Validado";
         System.out.print("");
-        System.out.printf("Vá para %d ou %d ou %d .\n", trecho077a, trecho077b, trecho077c);
+        System.out.printf(" A velha porta de madeira é rígida e você tem de bater com o ombro nela para abri-la. Quando a porta abre, você ouve o grito penetrante de uma voz feminina e fica surpreso com o que vê. Uma jovem elfa está amarrada sobre uma mesa, que está aparafusada ao chão no centro da cabana repleta de palha dois metros acima do estômago da elfa há uma es pada pendurada, suspensa por apenas um barbante de algodão, amarrado na ponta de uma estaca de ferro; esta se projeta na horizontal de uma trave de madeira levando para um buraco nas fracas tábuas do chão. \"Não se mova!\", grita a elfa. \"Uma das tábuas do chão vai soltar a espada caso você pise nela\". Você precisa decidir se vai ou não salvar a elfa. Você vai:\n" +
+                            "Correr e agarrar a espada? Vá para %d\n" +
+                            "Jogar sua mochila na espada? Vá para %d\n" +
+                            "Deixar a elfa e ir embora?Vá para %d.\n", trecho077a, trecho077b, trecho077c);
         System.out.print("Quero ir para: ");
         System.out.print("");
         Scanner teclado = new Scanner(System.in);
@@ -1588,7 +1614,8 @@ public class TextoLivro {
         int trecho078b = 240;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho078a, trecho078b);
+        System.out.printf("Você desce a rua rápido, antes de atrair a atenção de mais alguém. Você sente alguma coisa grande dentro da roupa e lembra da bolsa de couro. Você a pega e desamarra a corda que a mantém fechada. Virando-a de cabeça para baixo, você esvazia o conteúdo em sua mão e fica chocado ao descobrir um escorpião na palma de sua mão. Teste a sorte. Se for sortudo, vá para %d. \n" +
+"Se for azarado, vá para %d.\n", trecho078a, trecho078b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1614,7 +1641,7 @@ public class TextoLivro {
         int trecho079a = 301;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho079a);
+        System.out.printf("Sentindo que você está com problemas, Agglax se prepara para seu momento de triunfo. Vá para %d.\n", trecho079a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1628,7 +1655,7 @@ public class TextoLivro {
         int trecho080b = 18;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho080a, trecho080b);
+        System.out.printf("A mosca varejeira hesita por um segundo antes de partir para a geleia que você escolheu. Some 1 ponto de SORTE. O homem abre o broche e o alcança para você sem dizer uma palavra sequer, seu rosto sem expressão, Você examina o belo broche, que mostra um dragão cuspindo fogo. Você o vira e descobre o número \"89\" riscado na parte de trás. Você memoriza o número e prende o broche em sua túnica. Se quiser perguntar ao ladino seu nome, vá para %d. Se preferir deixá-lo em paz e avançar para a outra mesa para sentar com os três vagabundos, vá para %d.\n", trecho080a, trecho080b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1654,7 +1681,7 @@ public class TextoLivro {
         int trecho081a = 376;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho081a);
+        System.out.printf("\"Desculpe\", diz ele. \"Eu falo demais, não é?\". Ele lhe alcança a chave e você sobe as escadas para o seu quarto. Vá para %d.\n", trecho081a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1667,7 +1694,7 @@ public class TextoLivro {
         int trecho082a = 130;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho082a);
+        System.out.printf("Você vinga a morte de suas tropas com um movimento rápido da espada. Você desce da árvore e ordena a seus guerreiros que voltem à trilha e continuem marchando. Vá para %d.\n", trecho082a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1680,7 +1707,7 @@ public class TextoLivro {
         int trecho083a = 188;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho083a);
+        System.out.printf("Cinco de seus guerreiros caem vítimas das moscas arpão, seus corpos servindo de alimento nas semanas por vir para as larvas que vão chocar dentro deles. As moscas arpão acabam indo embora e você conduz seus homens desanimados de volta ao navio. Perca 1 ponto de SORTE. O Capitão Barnock nã perde tempo e faz o navio partir direto rio acima sentindo seu desejo de ir embora deste lugar amal. diçoado. Vá para %d.\n", trecho083a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1694,7 +1721,7 @@ public class TextoLivro {
         int trecho084b = 120;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho084a, trecho084b);
+        System.out.printf("O exército marcha para o leste ao longo da margem do Rio Kok até alcançar uma grande divisão. A sua frente se ergue uma muralha de árvores negras retorcidas: a sinistra Floresta dos Demônios. Você marcha para o norte por um tempo até chegar a uma parte segura para cruzar o afluente. Há mui tos sussurros entre suas fileiras enquanto marcham para dentro da floresta, quando a luz do dia rapidamente se vai debaixo das grossas copas das árvores acima. Só os guinchos estridentes de macacos assustados às vezes quebram o estranho silêncio da floresta. À medida que vocês penetram mais fundo, as árvores se tornam mais densas, e seu exército demora para passar por entre elas. Se quiser apertar o passo, vá para %d. Se quiser enviar um batedor para procurar um caminho mais fácil por entre a floresta, vá para %d.\n", trecho084a, trecho084b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1720,7 +1747,7 @@ public class TextoLivro {
         int trecho085a = 299;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho085a);
+        System.out.printf("O chão do túnel vai ficando mais íngreme, e o caminhar vai se tornando um esforço cada vez maior. Mas suas pernas de repente parecem cheias de velocidade quando você vê um facho de luz branca à frente. O ar parece mais fresco; você logo está fora da caverna e sob a luz do dia a apenas cem metros de seus homens. Eles estão sentados em um círculo, esperando pacientes que você apareça da caverna que entrou não muito tempo atrás. Você chama por eles e corre para onde eles estão sentados para contar-lhes de sua aventura subterrânea. Você decide retornar a seu exército sem mais delongas. Mas a jornada de retorno começa com um encontro nada agradável. Você vê uma nuvem de pó se aproximando e logo ouve o som de cascos galopando. Dez centauros hostis investem em carga contra você. Você deve lutar uma escaramuça. Se vencer, vá para %d.\n", trecho085a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1733,7 +1760,7 @@ public class TextoLivro {
         int trecho086a = 340;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho086a);
+        System.out.printf("Assim que suas espadas são sacadas, quinze homens das colinas aparecem do nada. Vestindo o couro de animais e armados com machados e porretes de madeira, os homens de cabelo comprido avançam correndo na sua direção com as pernas musculosas, gritando com vontade. Você deve lutar uma escaramuça. Se vencer, vá para %d.\n", trecho086a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1749,7 +1776,11 @@ public class TextoLivro {
         String trecho087MonstroNome = ("Aranha Gigante");
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho087a);
+        System.out.printf("Assim que você adentra a penumbra da caverna, suas pernas roçam em alguns fios pegajosos. Como se um alarme tivesse soado, uma enorme aranha peluda rasteja para fora das profundezas da caverna para enlaçar a vítima que acredita ter invadido seu covil. Você precisa lutar por sua vida.\n" +
+                            "ARANHA GIGANTE\n" +
+                            "HABILIDADE 7\n" +
+                            "ENERGIA 8\n" +
+                            "Se vencer, vá para %d.\n", trecho087a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1762,7 +1793,7 @@ public class TextoLivro {
         int trecho088a = 259;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho088a);
+        System.out.printf("Você ouve um farfalhar vindo de arbustos densos às suas costas e de repente dez enormes criaturas parecidas com goblins saltam brandindo machados. Com quase dois metros e meio de altura, os garks de pele marrom avançam para atacar. Você precisa lutar uma escaramuça. Se vencer, vá para %d.\n", trecho088a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1775,7 +1806,7 @@ public class TextoLivro {
         int trecho089a = 280;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho089a);
+        System.out.printf("\"Muito obrigado\", diz o oráculo. \"E agora, como posso ajudá-lo?\". Você explica que acredita que ele pode ajudá-lo a vencer Agglax, e pergunta se isso é verdade. \"Então você deseja destruir o demônio das sombras? Que bom que você tem um exército consigo, pois nunca conseguiria alcançar Agglax sozinho. Suas forças são grandes demais para passar despercebido por elas. Você precisa abrir caminho até ele lutando. Você vai encontrar uma trilha de destruição a leste da Floresta dos Demônios. Siga essa trilha e você logo vai alcançar o exército da morte do demónio das sombras. Mesmo que destrua o exercito dele, Agglax lutará sozinho. Suas armas não podem feri-lo. Apenas uma magia do vazio pode oblitera o demônio. Você precisa encontrar o cristal de luz Quando estiver a menos de dois metros de Agglax segure o cristal com ambas as mãos e diga Très dois, um-vá. É assim que você vai livrar estas terras do demônio das sombras. Adeus e boa sorte\". olhos do rosto de pedra se fecham e você ouve um rangido às suas costas, Olhando ao redor, você vê que uma seção da parede está deslizando. Confiante, você avança pelo túnel que se revela. Vá para %d.\n", trecho089a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1789,7 +1820,7 @@ public class TextoLivro {
         int trecho090b = 211;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho090a, trecho090b);
+        System.out.printf("Você não aciona a soltura da espada e consegue pegá-la e jogá-la de lado. A elfa começa a chorar aliviada quando você corta as cordas que a prendem \"Obrigada\", geme ela. \"Obrigada por salvar minha vida\". Ela então tira um anel do dedo e diz: \"Por favor, fique com este anel como um símbolo de minha gratidão. Ele vai trazer-lhe boa sorte\". Se quiser ficar com o anel, vá para %d. Se preferir recusar presente educadamente, pegar sua mochila e voltar a seus homens do lado de fora, vá para %d \n", trecho090a, trecho090b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1815,7 +1846,7 @@ public class TextoLivro {
         int trecho091a = 178;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho091a);
+        System.out.printf("Seus anões lutam valorosamente contra os guerreiros do caos, mas estão em franca desvantagem. Recusando-se a ceder terreno, eles postam-se firmes e lutam até que os últimos dois deles fiquem de costas um para o outro contra seus fanáticos adversários. Então um deles cai com o golpe de uma maça com cravos e o outro é perfurado por uma lança nas costas. Seus ouvidos doem com os gritos atormentados dos vitoriosos guerreiros do caos. Você grita novas ordens de batalha, esperando que os guerreiros do caos ataquem, mas eles se viram e trotam de volta às suas linhas. Você decide que o ataque é a melhor defesa e dá ordens para seu exército marchar contra a linha de frente dos trolls. Vá para %d .\n", trecho091a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1837,7 +1868,12 @@ public class TextoLivro {
         String trecho092MonstroNome03 = ("Jip");
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho092a);
+        System.out.printf("\"Rua do Cascalho?\", continua Enk. \"É bem perto da rua onde eu moro. Nós vamos levá-lo lá\". Incapaz de pensar em uma boa desculpa, você concorda. Você os segue para fora da taverna, caminha pela rua por cinco minutos, então vira à direita em um beco. Os três homens de repente param e viram, suas mãos segurando adagas. \"Rua do Cascalho! Não há Rua do Cascalho em Zengis\", diz Enk, alegre. \"Vamos pegar o forasteiro, rapazes; os bolsos dele parecem estar abarrotados de ouro!\". Você saca a espada rápido enquanto os três vagabundos descem sobre você. Lute com um de cada vez.\n" +
+                            "	Habilidade		Energia\n" +
+                            "Enk	8			7       \n" +
+                            "Laz	7			7	\n" +
+                            "Jip	7			8	\n" +
+                            "Se vencer, vá para %d .\n", trecho092a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1851,7 +1887,7 @@ public class TextoLivro {
         int trecho093b = 381;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho093a, trecho093b);
+        System.out.printf("A chave gira e você ouve um clique baixo. Com um rangido áspero, a rocha desliza para dentro da rede e você pode seguir pela passagem. Entretanto ela logo termina em outra bifurcação. Se quiser seguir para a esquerda, vá para %d. Se preferir ir para a direita, vá para %d. \n", trecho093a, trecho093b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1877,7 +1913,7 @@ public class TextoLivro {
         int trecho094a = 234;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho094a);
+        System.out.printf("O guerreiro deixa o homem para ser levado pela corrente até o mar e um túmulo de água. Ele nada de volta ao navio e logo vocês continuam a viagem Vá para %d .\n", trecho094a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1891,7 +1927,7 @@ public class TextoLivro {
         int trecho095b = 177;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho095a, trecho095b);
+        System.out.printf("À sua esquerda você vê um beco, no fundo do qual há uma pilha de barris. Se quiser entrar no beco para investigar, vá para %d. Se preferir subir a rua vá para %d.\n", trecho095a, trecho095b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1899,7 +1935,6 @@ public class TextoLivro {
         while ("Não Validado".equals(validador)) {
             if (opcao == trecho095a || opcao == trecho095b) {
                 validador = "Validado";
-
             } else {
                 System.out.printf("A opção %d não é um caminho valido. Escolha um caminho valido.\n", opcao);
                 System.out.printf("Digite a opção correta. %d ou %d.\n", trecho095a, trecho095b);
@@ -1918,7 +1953,7 @@ public class TextoLivro {
         int trecho096b = 310;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho096a, trecho096b);
+        System.out.printf("Você chega a uma parte mais estreita do abismo onde um enorme pedaço de rocha foi colocado como se fosse uma ponte. Se quiser que seu exército atravesse a ponte, vá para %d. Se preferir continuar marchando, vá para %d.\n", trecho096a, trecho096b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1944,7 +1979,7 @@ public class TextoLivro {
         int trecho097a = 0;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho097a);
+        System.out.printf("Você é consumido pela bola de fogo antes mesmo que seu exército possa alcançá-lo.\n", trecho097a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
@@ -1958,7 +1993,7 @@ public class TextoLivro {
         int trecho098b = 315;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho098a, trecho098b);
+        System.out.printf("Você é consumido pela bola de fogo antes mesmo que suas tropas possam alcançá-lo. O buraco que você está cavando já tem um metro de profundidade quando sua pá bate em alguma coisa de metal. Você tira a terra, revelando um pedaço grande de ferro. Se quiser continuar cavando, vá para %d. Se preferir encher o buraco de novo e deixar a clareira, vá para %d.\n", trecho098a, trecho098b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -1985,7 +2020,7 @@ public class TextoLivro {
         int trecho099b = 177;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho099a, trecho099b);
+        System.out.printf("\"Você disse as Cavernas da Pedra da Lua? Sim, já estive lá. Lugarzinho perigoso, cheio de armadilhas. Elas foram colocadas lá pelo oráculo, que odeia visitantes. Mas o oráculo fala com a maioria das pessoas que puderem sobreviver às suas armadilhas e alcançarem o santuário interno. Entenda; trata-se de um desafio. Ele odeia perder tempo. Só perde tempo com pessoas que realmente precisam dele, mas assim mesmo ele vai querer alguns presentes, dependendo da informação que você procura. Sugiro que consiga um guia. Vá para Karn. É o único lugar onde você vai encontrar um\". Você agradece ao caçador de recompensas e volta com ele pelo túnnel. Deixando-o para recolher provas da morte dos goblins do esgoto, você pondera sobre o que fazer a seguir. Se ainda não tiver feito isso, você pode investigar os barris (vá para %d) ou voltar pelo beco e virar à esquerda na rua (vá para %d).\n", trecho099a, trecho099b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -2012,7 +2047,7 @@ public class TextoLivro {
         int trecho100b = 173;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho100a, trecho100b);
+        System.out.printf("Você entra em um salão abarrotado de gente, repleto de mesas de jogo e apostadores vorazes. O lugar inteiro está animado. Você observa uma garota girar uma enorme roda da fortuna e ouvir os rugidos e aclamações das pessoas ao redor dela quando o número 33 finalmente para na lingueta. Você observa algumas mãos de cartas em várias mesas, mas final mente decide jogar uma partida de \"alto-baixo\". A garota segurando os dados lhe explica o jogo. Você deve jogar dois dados, mas antes de fazê-lo deve adivinhar se o resultado rolado será \"alto\" (8 a 12) ou \"baixo\" (2 a 6). O número 7 significa derrota. Ela explica que você pode apostar até 50 peças de ouro e ela lhe pagará o mesmo valor caso você adivinhe corretamente. Se quiser apostar uma vez, vá para %d. Se perder, vá para %d.\n", trecho100a, trecho100b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -2038,7 +2073,7 @@ public class TextoLivro {
         int trecho101b = 64;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para : %d ou %d " + "\n", trecho101a, trecho101b);
+        System.out.printf("Enquanto pega o machado dele, você vê uma bolsa de couro no cinto do homem com o machado; antes que você possa abri-la, você vê dois guardas da cidade subindo a rua correndo na sua direção Se quiser abrir a bolsa de couro e arriscar ser preso, vá para %d. Se preferir fugir apenas com o anel de ouro, vá para %d.\n", trecho101a, trecho101b);
         System.out.print("Quero ir para: ");
         Scanner teclado = new Scanner(System.in);
         int opcao = teclado.nextInt();
@@ -2064,7 +2099,7 @@ public class TextoLivro {
         int trecho102a = 113;
         String validador = "Não Validado";
         System.out.println("");
-        System.out.printf("Vá para %d .\n", trecho102a);
+        System.out.printf("A rua faz uma curva fechada para a esquerda, então para a esquerda de novo e você logo se vê de volta aos portões principais da entrada de Zengis. Lem brando de sua promessa para Lexon, você decide voltar ao exército que lhe espera. Vá para %d.\n", trecho102a);
         System.out.println("");
         Scanner teclado = new Scanner(System.in);
         String pausa = teclado.nextLine();
